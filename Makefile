@@ -1,7 +1,7 @@
 CC = gcc
 CXX = g++
-CFLAGS = -O2
-CXXFLAGS = -std=c++17 -Wall -O3 -march=native -Wno-attributes
+CFLAGS = -O3
+CXXFLAGS = -std=c++17 -Wall -O3 -march=native -flto -Wno-attributes
 LIBS = -lwayland-client -lwayland-egl -lEGL -lGLESv2
 INCLUDES = -I. -Isrc
 
